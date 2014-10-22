@@ -1,0 +1,126 @@
+﻿* {
+
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+	width:200px;
+	margin:0 auto;
+	position:fixed;
+	bottom:12px;
+	right:12px;
+}
+body {
+    background: white;
+    font:12px "Microsoft YaHei","Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+#pic {
+	position:relative;
+	background: url('background.png') no-repeat;
+	/*background-position:50% 50%;*/
+	background-size: cover;
+	left:25%;
+	right:8px;
+	top:6px;
+	bottom:10px;
+	width:1000px;
+	height:694px;
+	
+}
+
+#header {
+    box-shadow: inset 0 0 4px 6px rgba(0, 0, 0, 0.4);
+    display: block;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#bodyheight{
+	position: relative;
+}
+#me h1{
+	font-size: 30px;
+	font-weight: bold;
+	color:#333;
+	
+}
+#me h2{
+	font-size:12px;
+	color:#999;
+	margin-top:5px;
+}
+#menu {
+    background: url('background2.png');
+    font-size: 1em;
+    left: 8px;
+    margin-bottom: 32px;
+    max-width: 95%;
+    padding: 24px 16px 0 0;
+    position: fixed;
+    top: calc(10% + 48px);
+    left:10%;
+}
+#menu {
+	position:absolute;
+	text-align:right;
+
+}
+#menu img{
+	width:16px;
+	height:16px;
+}
+#menu li{
+	list-style:none;
+}
+#menu li.item {
+    background: url('background2.png');
+    border: 0px solid #DFDFDF;
+    font-size: 1.7em;
+    margin: 5px 0 5px 0;
+    padding-left: 10px;
+}
+
+#menu li.item small {
+    display: inline-block;
+    font-size: 0.75em;
+    vertical-align: -6px;
+}
+
+#menu li.item small:before {
+    content: '/';
+    display: inline-block;
+    vertical-align: 4px;
+}
+
+#menu li.item a {
+    border-left: 10px solid rgba(0,0,0,0);
+    color: #333;
+    display: block;
+    margin-left:50px;
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+#menu li.item a:hover {
+    border-left: 10px solid #EE9A00;
+    color: #00637C;
+}
+
+#menu hr {
+    border: none;
+    margin: 24px;
+}
+.color-sep{
+	background:url(bgline.png);
+	height:4px;
+}
+#copyright a{
+	color:#000;
+	text-decoration:underline;
+}
+#copyright a:hover {
+	color:#ee5c42
+}
+
