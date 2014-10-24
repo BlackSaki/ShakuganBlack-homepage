@@ -44,7 +44,6 @@ body {
 #menu {
     background: url('background2.png');
     font-size: 1em;
-    left: 8px;
     margin-bottom: 32px;
     max-width: 95%;
     padding: 24px 16px 0 0;
@@ -65,7 +64,6 @@ body {
 }
 #menu li.item {
     background: url('background2.png');
-    border: 0px solid #DFDFDF;
     font-size: 1.7em;
     margin: 5px 0 5px 0;
     padding-left: 10px;
